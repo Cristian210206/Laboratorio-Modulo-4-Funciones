@@ -1,0 +1,69 @@
+.turno-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#numero-turno {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.texto-turno {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.botones {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 27%;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.cadena {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 3, 1fr;
+  width: 50%;
+  margin: auto;
+}
+
+.insertar {
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 22%;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+#numero-insertado {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-width: 1px;
+}
+
+#boton-ingreso {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10%;
+}
